@@ -121,7 +121,7 @@ export default class User {
             setTimeout(() => formBox.classList.add('active'), 1000);
 
             flagUserIspresent
-                ? window.location.href = '../src/main.html'
+                ? window.location.href = '../main.html'
                 : alert('Utente Non Presente, Inserisci Correttamente Tutti I Campi Oppure Registrati');
         };
 
